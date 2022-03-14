@@ -1,6 +1,8 @@
-package cn.lihuan.strategy;
+package cn.lihuan.sp;
 
-import cn.lihuan.simple.factory.*;
+import cn.lihuan.sfp.CashNormal;
+import cn.lihuan.sfp.CashRebate;
+import cn.lihuan.sfp.CashReturn;
 
 import java.util.Scanner;
 

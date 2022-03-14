@@ -1,6 +1,6 @@
-package cn.lihuan.strategy;
+package cn.lihuan.sp;
 
-import cn.lihuan.simple.factory.CashSuper;
+import cn.lihuan.sfp.CashSuper;
 
 public class CashContext {
     private CashSuper cs;

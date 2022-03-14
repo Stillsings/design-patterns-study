@@ -1,9 +1,9 @@
-package cn.lihuan.strategy.simple.factory;
+package cn.lihuan.spasfp;
 
-import cn.lihuan.simple.factory.CashNormal;
-import cn.lihuan.simple.factory.CashRebate;
-import cn.lihuan.simple.factory.CashReturn;
-import cn.lihuan.simple.factory.CashSuper;
+import cn.lihuan.sfp.CashNormal;
+import cn.lihuan.sfp.CashRebate;
+import cn.lihuan.sfp.CashReturn;
+import cn.lihuan.sfp.CashSuper;
 
 public class CashContext {
     private CashSuper cs = null;

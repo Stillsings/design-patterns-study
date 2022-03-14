@@ -1,4 +1,4 @@
-package cn.lihuan.simple.factory;
+package cn.lihuan.sfp;
 
 public class CashRebate extends CashSuper{
 

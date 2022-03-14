@@ -1,4 +1,4 @@
-package cn.lihuan.simple.factory;
+package cn.lihuan.sfp;
 
 public class CashReturn extends CashSuper{
     private double moneyCondition = 0.0d;

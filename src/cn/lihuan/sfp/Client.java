@@ -1,4 +1,4 @@
-package cn.lihuan.strategy.simple.factory;
+package cn.lihuan.sfp;
 
 import java.util.Scanner;
 
@@ -6,8 +6,8 @@ public class Client {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String type = input.nextLine();
-        CashContext cc = new CashContext(type);
+        CashSuper csSuper = CashFactory.createCashAccept(type);
         double money = input.nextDouble();
-        System.out.println(cc.getResult(money));
+        System.out.println(csSuper.acceptCash(money));
     }
 }
