@@ -21,6 +21,6 @@ public class Client {
                 break;
         }
         double money = input.nextDouble();
-        System.out.println(cc.GetResult(money));
+        System.out.println(cc.getResult(money));
     }
 }
